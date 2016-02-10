@@ -31,13 +31,14 @@ The system should incorporate the following commands:
             Output : should include 'name' 'size' 'timestamp' 'type of file'  
         - longlist:  
             Flag would mean that client wants to know the entire listing of the shared folders/directory including shortlist options.  
+
 2. FileHash flag (args):  
 This commmand indicates that the client wants to check if any of the files on the other end have been changed. The flag variable can take two values, verify and checkall  
     * verify: flag should check for the specific file name provided as command line argument and return its 'checksum' and 'lastmodified' timestamp.  
     - $> FileHash verify <filename> 
     - Output: Checksum and lastmodified timestamp of the file  
   
-     checkall: Flag should check perform what 'verify' does for all the files in the shared folder.  
+     __checkall: Flag should check perform what 'verify' does for all the files in the shared folder.__  
 (This can be used to periodically check the files)  
 
 3. FileDownload flag (args):  
