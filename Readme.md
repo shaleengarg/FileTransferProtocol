@@ -51,7 +51,7 @@ As the name suggests, would be the command to download the files from the shared
 
 ******
 
-The assignment will be done in CPP. This assignment is a building block for bluetooth programming.  
+The assignment will be done in C++. This assignment is a building block for bluetooth programming.  
 
 Done by:  
 Shaleen Garg  
