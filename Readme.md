@@ -57,6 +57,3 @@ Done by:
 Shaleen Garg  
 
 email: shaleen.garg@students.iiit.ac.in
-
-Just for fun:  
-$-b \pm \sqrt{b^2 - 4ac} \over 2a$
