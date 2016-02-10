@@ -37,15 +37,15 @@ This commmand indicates that the client wants to check if any of the files on th
     - $> FileHash verify <filename> 
     - Output: Checksum and lastmodified timestamp of the file  
   
-    * checkall: Flag should check perform what 'verify' does for all the files in the shared folder.  
+     checkall: Flag should check perform what 'verify' does for all the files in the shared folder.  
 (This can be used to periodically check the files)  
 
 3. FileDownload flag (args):  
 As the name suggests, would be the command to download the files from the shared folder of the connected user to our shared folder.  
     * the flag variable can take the value TCP or UDP depending on the user request.  
     * if the socket is not available, it should created and both clients must use this socket for file transfer.  
-        - $> FileDownload <filename>  
-        - Output: should contain the filename, filesize, lastmodified, timestamp and the MD5checksum of the file.  
+         $> FileDownload <filename>  
+         Output: should contain the filename, filesize, lastmodified, timestamp and the MD5checksum of the file.  
 (HINT: the filesize parameter might be used to allocate memory)  
 
 ******
