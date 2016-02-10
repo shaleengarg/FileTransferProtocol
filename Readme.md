@@ -21,7 +21,7 @@ Specifications:
 ---
 The system should incorporate the following commands:
 
-1. IndexGet flag (args) \s\s
+1. IndexGet flag (args)\s\s
     a. can request the display of the shared files on the connnected system.
     b. The history of requests made by either clients should be maintained at each of the clients respecitvely.
     c. the flag variable can be shortlist, longlist, regex
