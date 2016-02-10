@@ -18,7 +18,7 @@ Features:
 4. File transfer should incorporate MD5checksums to handle file transfer errors.
 
 Specifications:
----
+----
 The system should incorporate the following commands:
 
 1. IndexGet flag (args)  
