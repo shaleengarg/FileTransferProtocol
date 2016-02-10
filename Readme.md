@@ -21,7 +21,7 @@ Specifications:
 ---
 The system should incorporate the following commands:
 
-1. IndexGet flag (args)\
+1. IndexGet flag (args) \s\s
     a. can request the display of the shared files on the connnected system.
     b. The history of requests made by either clients should be maintained at each of the clients respecitvely.
     c. the flag variable can be shortlist, longlist, regex
@@ -31,7 +31,6 @@ The system should incorporate the following commands:
             Output : should include 'name' 'size' 'timestamp' 'type of file'
         2) longlist:
             Flag would mean that client wants to know the entire listing of the shared folders/directory including shortlist options.
-<br/>
 2. FileHash flag (args):
 This commmand indicates that the client wants to check if any of the files on the other end have been changed. The flag variable can take two values, verify and checkall
     1) verify: flag should check for the specific file name provided as command line argument and return its 'checksum' and 'lastmodified' timestamp.
