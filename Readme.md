@@ -47,7 +47,7 @@ As the name suggests, would be the command to download the files from the shared
     * if the socket is not available, it should created and both clients must use this socket for file transfer.  
          $> FileDownload <filename>  
          Output: should contain the filename, filesize, lastmodified, timestamp and the MD5checksum of the file.  
-(HINT: the filesize parameter might be used to allocate memory)  
+(__HINT__: the filesize parameter might be used to allocate memory)  
 
 ******
 
