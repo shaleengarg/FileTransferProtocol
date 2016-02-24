@@ -51,9 +51,7 @@ As the name suggests, would be the command to download the files from the shared
 
 ******
 
-The assignment will be done in C++. This assignment is a building block for bluetooth programming.  
-
-Done by:  
-Shaleen Garg  
-
-email: shaleen.garg@students.iiit.ac.in
+The assignment will be done in python2.
+Done By 
+Vikas Thamizharasan 201401179
+Shaleen Garg 201401069
